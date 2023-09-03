@@ -2992,20 +2992,20 @@ function monitorNecrosis(img) {
     var volley = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.volley);
     if (getSetting("track_fod")) {
         if (is6 || is8 || is10 || is12) {
-            alt1.overLayImage(loc.x + 6, loc.y + 6, fod_big, 60, 250);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 3, loc.y + 3, 63, 63, 250, 3);
+            alt1.overLayImage(loc.x + 6, loc.y + 6, fod_big, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 3, loc.y + 3, 63, 63, 300, 3);
         }
     }
     if (getSetting("track_strike")) {
         if (soul1 || soul2) {
-            alt1.overLayImage(loc.x + 71, loc.y + 6, strike, 60, 250);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 68, loc.y + 3, 63, 63, 250, 3);
+            alt1.overLayImage(loc.x + 71, loc.y + 6, strike, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 68, loc.y + 3, 63, 63, 300, 3);
         }
     }
     if (getSetting("track_volley")) {
         if (soul3 || soul4 || soul5) {
-            alt1.overLayImage(loc.x + 71, loc.y + 6, volley, 60, 250);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 68, loc.y + 3, 63, 63, 250, 3);
+            alt1.overLayImage(loc.x + 71, loc.y + 6, volley, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 68, loc.y + 3, 63, 63, 300, 3);
         }
     }
 }
