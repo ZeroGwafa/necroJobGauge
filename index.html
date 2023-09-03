@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+	<div id="output"></div>
+	<button onclick=TestApp.setLoc()>Set position</button>
+	<div>
+		<table>
+			<tr><th colspan=2>Alerts</th></tr>
+			<tr>
+				<td>Finger of Death</td>
+				<td><input type="checkbox" id="fod" onchange="TestApp.saveSettings('track_fod', this.checked)"></td>
+			</tr>
+			<tr>
+				<td>Soul Strike</td>
+				<td><input type="checkbox" id="strike" onchange="TestApp.saveSettings('track_strike', this.checked)"></td>
+			</tr>
+			<tr>
+				<td>Volley of Souls</td>
+				<td><input type="checkbox" id="volley" onchange="TestApp.saveSettings('track_volley', this.checked)"></td>
+			</tr>
+		</table>
+	</div>
+	<script src="./main.js"></script>
+</body>
+
+</html>

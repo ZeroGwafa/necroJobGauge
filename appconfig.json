@@ -1,0 +1,12 @@
+{
+	"appName": "NecroJobGauge",
+	"description": "Provides a movable interface which displays when certain Necromancy abailites are available to use.",
+	"appUrl": "./index.html",
+	"configUrl": "./appconfig.json",
+	"iconUrl": "./icon.png",
+	"defaultWidth": 220,
+	"defaultHeight": 172,
+	"requestHandlers": [ ],
+	"activators": [	],
+	"permissions": "pixel,overlay,gamestate"
+}
