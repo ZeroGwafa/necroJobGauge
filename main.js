@@ -11,10 +11,10 @@
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./fod_big.data.png":
-/*!**************************!*\
-  !*** ./fod_big.data.png ***!
-  \**************************/
+/***/ "./fod.data.png":
+/*!**********************!*\
+  !*** ./fod.data.png ***!
+  \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports=(__webpack_require__(/*! alt1/base */ "../node_modules/alt1/dist/base/index.js").ImageDetect.imageDataFromBase64)("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")
@@ -2817,6 +2817,1162 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_sharp__;
 ;
 });
 
+/***/ }),
+
+/***/ "../node_modules/alt1/dist/buffs/index.js":
+/*!************************************************!*\
+  !*** ../node_modules/alt1/dist/buffs/index.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory(__webpack_require__(/*! alt1/base */ "../node_modules/alt1/dist/base/index.js"), __webpack_require__(/*! alt1/ocr */ "../node_modules/alt1/dist/ocr/index.js"));
+	else {}
+})(globalThis, (__WEBPACK_EXTERNAL_MODULE_alt1_base__, __WEBPACK_EXTERNAL_MODULE_alt1_ocr__) => {
+return /******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/buffs/imgs/buffborder.data.png":
+/*!********************************************!*\
+  !*** ./src/buffs/imgs/buffborder.data.png ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __nested_webpack_require_885__) => {
+
+module.exports=(__nested_webpack_require_885__(/*! alt1/base */ "alt1/base").ImageDetect.imageDataFromBase64)("iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAAAW5vUEUAYtdMlAAAAARub1BFAAAAAEEgjiIAAAAJbm9QRQAAAAAAAAAAAKGKctUAAABCSURBVEhL7daxDQAgDANBwxasxmCsS4jECE8K5JdcX+s219iqKrGTXi+dfs2SjCEZQzKGZAzJGJIxJGNI/2KFj1gK6ntTCO2Nfp8AAAAASUVORK5CYII=")
+
+/***/ }),
+
+/***/ "./src/buffs/imgs/debuffborder.data.png":
+/*!**********************************************!*\
+  !*** ./src/buffs/imgs/debuffborder.data.png ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __nested_webpack_require_1504__) => {
+
+module.exports=(__nested_webpack_require_1504__(/*! alt1/base */ "alt1/base").ImageDetect.imageDataFromBase64)("iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAAAW5vUEUAYtdMlAAAAARub1BFAAAAAEEgjiIAAAAJbm9QRQAAAAAAAAAAAKGKctUAAABFSURBVEhL7daxDQAgDANBm5XYfwOYyUgoI5gUyFc51bfhAoQmNzYl1v3MJjVqt0jMIjGLxCwSs0jMIjGLxCz+jTV+xMAB3/oJlYh5IBUAAAAASUVORK5CYII=")
+
+/***/ }),
+
+/***/ "./src/buffs/index.ts":
+/*!****************************!*\
+  !*** ./src/buffs/index.ts ***!
+  \****************************/
+/***/ (function(__unused_webpack_module, exports, __nested_webpack_require_2063__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BuffInfo = exports.Buff = void 0;
+const a1lib = __importStar(__nested_webpack_require_2063__(/*! alt1/base */ "alt1/base"));
+const OCR = __importStar(__nested_webpack_require_2063__(/*! alt1/ocr */ "alt1/ocr"));
+const base_1 = __nested_webpack_require_2063__(/*! alt1/base */ "alt1/base");
+var imgs = (0, base_1.webpackImages)({
+    buff: __nested_webpack_require_2063__(/*! ./imgs/buffborder.data.png */ "./src/buffs/imgs/buffborder.data.png"),
+    debuff: __nested_webpack_require_2063__(/*! ./imgs/debuffborder.data.png */ "./src/buffs/imgs/debuffborder.data.png"),
+});
+var font = __nested_webpack_require_2063__(/*! ../fonts/pixel_8px_digits.fontmeta.json */ "./src/fonts/pixel_8px_digits.fontmeta.json");
+function negmod(a, b) {
+    return ((a % b) + b) % b;
+}
+class Buff {
+    constructor(buffer, x, y, isdebuff) {
+        this.buffer = buffer;
+        this.bufferx = x;
+        this.buffery = y;
+        this.isdebuff = isdebuff;
+    }
+    readArg(type) {
+        return BuffReader.readArg(this.buffer, this.bufferx + 2, this.buffery + 23, type);
+    }
+    readTime() {
+        return BuffReader.readTime(this.buffer, this.bufferx + 2, this.buffery + 23);
+    }
+    compareBuffer(img) {
+        return BuffReader.compareBuffer(this.buffer, this.bufferx + 1, this.buffery + 1, img);
+    }
+    countMatch(img, aggressive) {
+        return BuffReader.countMatch(this.buffer, this.bufferx + 1, this.buffery + 1, img, aggressive);
+    }
+}
+exports.Buff = Buff;
+class BuffReader {
+    constructor() {
+        this.pos = null;
+        this.debuffs = false;
+    }
+    find(img) {
+        if (!img) {
+            img = a1lib.captureHoldFullRs();
+        }
+        if (!img) {
+            return null;
+        }
+        var poslist = img.findSubimage(this.debuffs ? imgs.debuff : imgs.buff);
+        if (poslist.length == 0) {
+            return null;
+        }
+        var grids = [];
+        for (var a in poslist) {
+            var ongrid = false;
+            for (var b in grids) {
+                if (negmod(grids[b].x - poslist[a].x, BuffReader.gridsize) == 0 && negmod(grids[b].x - poslist[a].x, BuffReader.gridsize) == 0) {
+                    grids[b].x = Math.min(grids[b].x, poslist[a].x);
+                    grids[b].y = Math.min(grids[b].y, poslist[a].y);
+                    grids[b].n++;
+                    ongrid = true;
+                    break;
+                }
+            }
+            if (!ongrid) {
+                grids.push({ x: poslist[a].x, y: poslist[a].y, n: 1 });
+            }
+        }
+        var max = 0;
+        var above2 = 0;
+        var best = null;
+        for (var a in grids) {
+            console.log("buff grid [" + grids[a].x + "," + grids[a].y + "], n:" + grids[a].n);
+            if (grids[a].n > max) {
+                max = grids[a].n;
+                best = grids[a];
+            }
+            if (grids[a].n >= 2) {
+                above2++;
+            }
+        }
+        if (above2 > 1) {
+            console.log("Warning, more than one possible buff bar location");
+        }
+        if (!best) {
+            return null;
+        }
+        this.pos = { x: best.x, y: best.y, maxhor: 5, maxver: 1 };
+        return true;
+    }
+    getCaptRect() {
+        if (!this.pos) {
+            return null;
+        }
+        return new a1lib.Rect(this.pos.x, this.pos.y, (this.pos.maxhor + 1) * BuffReader.gridsize, (this.pos.maxver + 1) * BuffReader.gridsize);
+    }
+    read(buffer) {
+        if (!this.pos) {
+            throw new Error("no pos");
+        }
+        var r = [];
+        var rect = this.getCaptRect();
+        if (!rect) {
+            return null;
+        }
+        if (!buffer) {
+            buffer = a1lib.capture(rect.x, rect.y, rect.width, rect.height);
+        }
+        var maxhor = 0;
+        var maxver = 0;
+        for (var ix = 0; ix <= this.pos.maxhor; ix++) {
+            for (var iy = 0; iy <= this.pos.maxver; iy++) {
+                var x = ix * BuffReader.gridsize;
+                var y = iy * BuffReader.gridsize;
+                //Have to require exact match here as we get transparency bs otherwise
+                var match = buffer.pixelCompare((this.debuffs ? imgs.debuff : imgs.buff), x, y) == 0;
+                if (!match) {
+                    break;
+                }
+                r.push(new Buff(buffer, x, y, this.debuffs));
+                maxhor = Math.max(maxhor, ix);
+                maxver = Math.max(maxver, iy);
+            }
+        }
+        this.pos.maxhor = Math.max(5, maxhor + 2);
+        this.pos.maxver = Math.max(1, maxver + 1);
+        return r;
+    }
+    static compareBuffer(buffer, ox, oy, buffimg) {
+        var r = BuffReader.countMatch(buffer, ox, oy, buffimg, true);
+        if (r.failed > 0) {
+            return false;
+        }
+        if (r.tested < 50) {
+            return false;
+        }
+        return true;
+    }
+    static countMatch(buffer, ox, oy, buffimg, agressive) {
+        var r = { tested: 0, failed: 0, skipped: 0, passed: 0 };
+        var data1 = buffer.data;
+        var data2 = buffimg.data;
+        //var debug = new ImageData(buffimg.width, buffimg.height);
+        for (var y = 0; y < buffimg.height; y++) {
+            for (var x = 0; x < buffimg.width; x++) {
+                var i1 = buffer.pixelOffset(ox + x, oy + y);
+                var i2 = buffimg.pixelOffset(x, y);
+                //debug.data[i2] = 255; debug.data[i2 + 1] = debug.data[i2 + 2] = 0; debug.data[i2 + 3] = 255;
+                if (data2[i2 + 3] != 255) {
+                    r.skipped++;
+                    continue;
+                } //transparent buff pixel
+                if (data1[i1] == 255 && data1[i1 + 1] == 255 && data1[i1 + 2] == 255) {
+                    r.skipped++;
+                    continue;
+                } //white pixel - part of buff time text
+                if (data1[i1] == 0 && data1[i1 + 1] == 0 && data1[i1 + 2] == 0) {
+                    r.skipped++;
+                    continue;
+                } //black pixel - part of buff time text
+                var d = a1lib.ImageDetect.coldif(data1[i1], data1[i1 + 1], data1[i1 + 2], data2[i2], data2[i2 + 1], data2[i2 + 2], 255);
+                r.tested++;
+                //debug.data[i2] = debug.data[i2 + 1] = debug.data[i2 + 2] = d * 10;
+                if (d > 35) {
+                    //qw(pixelschecked); debug.show();
+                    r.failed++;
+                    if (agressive) {
+                        return r;
+                    }
+                }
+                else {
+                    r.passed++;
+                }
+            }
+        }
+        //debug.show(); qw(pixelschecked);
+        return r;
+    }
+    static isolateBuffer(buffer, ox, oy, buffimg) {
+        var count = BuffReader.countMatch(buffer, ox, oy, buffimg);
+        if (count.passed < 50) {
+            return;
+        }
+        var removed = 0;
+        var data1 = buffer.data;
+        var data2 = buffimg.data;
+        //var debug = new ImageData(buffimg.width, buffimg.height);
+        for (var y = 0; y < buffimg.height; y++) {
+            for (var x = 0; x < buffimg.width; x++) {
+                var i1 = buffer.pixelOffset(ox + x, oy + y);
+                var i2 = buffimg.pixelOffset(x, y);
+                //debug.data[i2] = 255; debug.data[i2 + 1] = debug.data[i2 + 2] = 0; debug.data[i2 + 3] = 255;
+                if (data2[i2 + 3] != 255) {
+                    continue;
+                } //transparent buff pixel
+                //==== new buffer has text on it ====
+                if (data1[i1] == 255 && data1[i1 + 1] == 255 && data1[i1 + 2] == 255 || data1[i1] == 0 && data1[i1 + 1] == 0 && data1[i1 + 2] == 0) {
+                    continue;
+                }
+                //==== old buf has text on it, use the new one ====
+                if (data2[i2] == 255 && data2[i2 + 1] == 255 && data2[i2 + 2] == 255 || data2[i2] == 0 && data2[i2 + 1] == 0 && data2[i2 + 2] == 0) {
+                    data2[i2 + 0] = data1[i1 + 0];
+                    data2[i2 + 1] = data1[i1 + 1];
+                    data2[i2 + 2] = data1[i1 + 2];
+                    data2[i2 + 3] = data1[i1 + 3];
+                    removed++;
+                }
+                var d = a1lib.ImageDetect.coldif(data1[i1], data1[i1 + 1], data1[i1 + 2], data2[i2], data2[i2 + 1], data2[i2 + 2], 255);
+                //debug.data[i2] = debug.data[i2 + 1] = debug.data[i2 + 2] = d * 10;
+                if (d > 5) {
+                    //qw(pixelschecked); debug.show();
+                    data2[i2 + 0] = data2[i2 + 1] = data2[i2 + 2] = data2[i2 + 3] = 0;
+                    removed++;
+                }
+            }
+        }
+        //debug.show(); qw(pixelschecked);
+        if (removed > 0) {
+            console.log(removed + " pixels remove from buff template image");
+        }
+    }
+    static readArg(buffer, ox, oy, type) {
+        var lines = [];
+        for (var dy = -10; dy < 10; dy += 10) { //the timer can be spread to a second line at certain times (229m)
+            var result = OCR.readLine(buffer, font, [255, 255, 255], ox, oy + dy, true);
+            if (result.text) {
+                lines.push(result.text);
+            }
+        }
+        var r = { time: 0, arg: "" };
+        if (type == "timearg" && lines.length > 1) {
+            r.arg = lines.pop();
+        }
+        var str = lines.join("");
+        if (type == "arg") {
+            r.arg = str;
+        }
+        else {
+            var m;
+            if (m = str.match(/^(\d+)hr$/i)) {
+                r.time = +m[1] * 60 * 60;
+            }
+            else if (m = str.match(/^(\d+)m$/i)) {
+                r.time = +m[1] * 60;
+            }
+            else if (m = str.match(/^(\d+)$/)) {
+                r.time = +m[1];
+            }
+        }
+        return r;
+    }
+    static readTime(buffer, ox, oy) {
+        return this.readArg(buffer, ox, oy, "time").time;
+    }
+    static matchBuff(state, buffimg) {
+        for (var a in state) {
+            if (state[a].compareBuffer(buffimg)) {
+                return state[a];
+            }
+        }
+        return null;
+    }
+    static matchBuffMulti(state, buffinfo) {
+        if (buffinfo.final) { //cheap way if we known exactly what we're searching for
+            return BuffReader.matchBuff(state, buffinfo.imgdata);
+        }
+        else { //expensive way if we are not sure the template is final
+            var bestindex = -1;
+            var bestscore = 0;
+            if (buffinfo.imgdata) {
+                for (var a = 0; a < state.length; a++) {
+                    var count = BuffReader.countMatch(state[a].buffer, state[a].bufferx + 1, state[a].buffery + 1, buffinfo.imgdata, false);
+                    if (count.passed > bestscore) {
+                        bestscore = count.passed;
+                        bestindex = a;
+                    }
+                }
+            }
+            if (bestscore < 50) {
+                return null;
+            }
+            //update the isolated buff
+            if (buffinfo.canimprove) {
+                BuffReader.isolateBuffer(state[bestindex].buffer, state[bestindex].bufferx + 1, state[bestindex].buffery + 1, buffinfo.imgdata);
+            }
+            return state[bestindex];
+        }
+    }
+}
+BuffReader.buffsize = 27;
+BuffReader.gridsize = 30;
+exports["default"] = BuffReader;
+class BuffInfo {
+    constructor(imgdata, debuff, id, canimprove) {
+        this.imgdata = imgdata;
+        this.isdebuff = debuff;
+        this.buffid = id;
+        this.final = !!id && !canimprove;
+        this.canimprove = canimprove;
+    }
+}
+exports.BuffInfo = BuffInfo;
+
+
+/***/ }),
+
+/***/ "alt1/base":
+/*!**************************************************************************************************!*\
+  !*** external {"root":"A1lib","commonjs2":"alt1/base","commonjs":"alt1/base","amd":"alt1/base"} ***!
+  \**************************************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = __WEBPACK_EXTERNAL_MODULE_alt1_base__;
+
+/***/ }),
+
+/***/ "alt1/ocr":
+/*!*********************************************************************************************!*\
+  !*** external {"root":"OCR","commonjs2":"alt1/ocr","commonjs":"alt1/ocr","amd":"alt1/ocr"} ***!
+  \*********************************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = __WEBPACK_EXTERNAL_MODULE_alt1_ocr__;
+
+/***/ }),
+
+/***/ "./src/fonts/pixel_8px_digits.fontmeta.json":
+/*!**************************************************!*\
+  !*** ./src/fonts/pixel_8px_digits.fontmeta.json ***!
+  \**************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"chars":[{"width":7,"bonus":120,"chr":"0","pixels":[0,2,255,255,0,3,255,255,0,4,255,255,0,5,255,255,1,1,255,255,1,3,255,0,1,4,255,0,1,5,255,0,1,6,255,255,2,0,255,255,2,2,255,0,2,7,255,255,3,1,255,255,3,6,255,255,3,8,255,0,4,2,255,255,4,3,255,255,4,4,255,255,4,5,255,255,4,7,255,0,5,3,255,0,5,4,255,0,5,5,255,0,5,6,255,0],"secondary":false},{"width":4,"bonus":95,"chr":"1","pixels":[0,1,255,255,0,7,255,255,1,0,255,255,1,1,255,255,1,2,255,255,1,3,255,255,1,4,255,255,1,5,255,255,1,6,255,255,1,7,255,255,1,8,255,0,2,1,255,0,2,2,255,0,2,3,255,0,2,4,255,0,2,5,255,0,2,6,255,0,2,7,255,255,2,8,255,0],"secondary":false},{"width":7,"bonus":140,"chr":"2","pixels":[0,1,255,255,0,6,255,255,0,7,255,255,1,0,255,255,1,2,255,0,1,5,255,255,1,7,255,255,1,8,255,0,2,0,255,255,2,1,255,0,2,4,255,255,2,6,255,0,2,7,255,255,2,8,255,0,3,0,255,255,3,1,255,0,3,3,255,255,3,5,255,0,3,7,255,255,3,8,255,0,4,1,255,255,4,2,255,255,4,4,255,0,4,7,255,255,4,8,255,0,5,2,255,0,5,3,255,0,5,8,255,0],"secondary":false},{"width":6,"bonus":115,"chr":"3","pixels":[0,1,255,255,0,6,255,255,1,0,255,255,1,2,255,0,1,3,255,255,1,7,255,255,2,0,255,255,2,1,255,0,2,3,255,255,2,4,255,0,2,7,255,255,2,8,255,0,3,1,255,255,3,2,255,255,3,4,255,255,3,5,255,255,3,6,255,255,3,8,255,0,4,2,255,0,4,3,255,0,4,5,255,0,4,6,255,0,4,7,255,0],"secondary":false},{"width":5,"bonus":110,"chr":"4","pixels":[0,0,255,255,0,1,255,255,0,2,255,255,0,3,255,255,0,4,255,255,0,5,255,255,1,1,255,0,1,2,255,0,1,3,255,0,1,4,255,0,1,5,255,255,1,6,255,0,2,3,255,255,2,4,255,255,2,5,255,255,2,6,255,255,2,7,255,255,3,4,255,0,3,5,255,255,3,6,255,0,3,7,255,0,3,8,255,0],"secondary":false},{"width":6,"bonus":135,"chr":"5","pixels":[0,0,255,255,0,1,255,255,0,2,255,255,0,3,255,255,0,6,255,255,1,0,255,255,1,1,255,0,1,2,255,0,1,3,255,255,1,4,255,0,1,7,255,255,2,0,255,255,2,1,255,0,2,3,255,255,2,4,255,0,2,7,255,255,2,8,255,0,3,0,255,255,3,1,255,0,3,4,255,255,3,5,255,255,3,6,255,255,3,8,255,0,4,1,255,0,4,5,255,0,4,6,255,0,4,7,255,0],"secondary":false},{"width":7,"bonus":160,"chr":"6","pixels":[0,2,255,255,0,3,255,255,0,4,255,255,0,5,255,255,0,6,255,255,1,1,255,255,1,3,255,0,1,4,255,255,1,5,255,0,1,6,255,0,1,7,255,255,2,0,255,255,2,2,255,0,2,3,255,255,2,5,255,0,2,7,255,255,2,8,255,0,3,0,255,255,3,1,255,0,3,3,255,255,3,4,255,0,3,7,255,255,3,8,255,0,4,1,255,255,4,4,255,255,4,5,255,255,4,6,255,255,4,8,255,0,5,2,255,0,5,5,255,0,5,6,255,0,5,7,255,0],"secondary":false},{"width":6,"bonus":105,"chr":"7","pixels":[0,0,255,255,0,6,255,255,0,7,255,255,1,0,255,255,1,1,255,0,1,4,255,255,1,5,255,255,1,7,255,0,1,8,255,0,2,0,255,255,2,1,255,0,2,2,255,255,2,3,255,255,2,5,255,0,2,6,255,0,3,0,255,255,3,1,255,255,3,3,255,0,3,4,255,0,4,1,255,0,4,2,255,0],"secondary":false},{"width":7,"bonus":170,"chr":"8","pixels":[0,1,255,255,0,2,255,255,0,4,255,255,0,5,255,255,0,6,255,255,1,0,255,255,1,2,255,0,1,3,255,255,1,5,255,0,1,6,255,0,1,7,255,255,2,0,255,255,2,1,255,0,2,3,255,255,2,4,255,0,2,7,255,255,2,8,255,0,3,0,255,255,3,1,255,0,3,3,255,255,3,4,255,0,3,7,255,255,3,8,255,0,4,1,255,255,4,2,255,255,4,4,255,255,4,5,255,255,4,6,255,255,4,8,255,0,5,2,255,0,5,3,255,0,5,5,255,0,5,6,255,0,5,7,255,0],"secondary":false},{"width":7,"bonus":130,"chr":"9","pixels":[0,1,255,255,0,2,255,255,1,0,255,255,1,2,255,0,1,3,255,255,2,0,255,255,2,1,255,0,2,4,255,255,3,0,255,255,3,1,255,0,3,4,255,255,3,5,255,0,4,1,255,255,4,2,255,255,4,3,255,255,4,4,255,255,4,5,255,255,4,6,255,255,4,7,255,255,5,2,255,0,5,3,255,0,5,4,255,0,5,5,255,0,5,6,255,0,5,7,255,0,5,8,255,0],"secondary":false},{"width":7,"bonus":130,"chr":"m","pixels":[0,4,255,255,0,5,255,255,0,6,255,255,0,7,255,255,1,3,255,255,1,5,255,0,1,6,255,0,1,7,255,0,1,8,255,0,2,4,255,255,2,5,255,255,2,6,255,255,2,7,255,255,3,3,255,255,3,5,255,0,3,6,255,0,3,7,255,0,3,8,255,0,4,4,255,255,4,5,255,255,4,6,255,255,4,7,255,255,5,5,255,0,5,6,255,0,5,7,255,0,5,8,255,0],"secondary":false},{"width":3,"bonus":85,"chr":"(","pixels":[0,1,255,255,0,2,255,255,0,3,255,255,0,4,255,255,0,5,255,255,0,6,255,255,0,7,255,255,0,8,255,25,1,0,255,255,1,2,255,0,1,3,255,0,1,4,255,0,1,5,255,0,1,6,255,0,1,7,255,0,1,8,255,255,2,1,255,0],"secondary":false},{"width":2,"bonus":70,"chr":")","pixels":[0,1,255,255,0,2,255,255,0,3,255,255,0,4,255,255,0,5,255,255,0,6,255,255,0,7,255,255,1,2,255,0,1,3,255,0,1,4,255,0,1,5,255,0,1,6,255,0,1,7,255,0,1,8,255,0],"secondary":false},{"width":6,"bonus":135,"chr":"h","pixels":[0,0,255,255,0,1,255,255,0,2,255,255,0,3,255,255,0,4,255,255,0,5,255,255,0,6,255,255,0,7,255,255,1,1,255,0,1,2,255,0,1,3,255,255,1,4,255,0,1,5,255,0,1,6,255,0,1,7,255,0,1,8,255,0,2,3,255,255,2,4,255,0,2,5,255,0,3,4,255,255,3,5,255,255,3,6,255,255,3,7,255,255,4,5,255,0,4,6,255,0,4,7,255,0,4,8,255,0],"secondary":false},{"width":5,"bonus":65,"chr":"r","pixels":[0,3,255,255,0,4,255,255,0,5,255,255,0,6,255,255,0,7,255,255,1,4,255,255,1,5,255,0,1,6,255,0,1,7,255,0,1,8,255,0,2,3,255,255,2,5,255,0,3,4,255,0],"secondary":false}],"width":7,"spacewidth":4,"shadow":true,"height":9,"basey":7}');
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __nested_webpack_require_20993__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __nested_webpack_require_20993__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __nested_webpack_exports__ = __nested_webpack_require_20993__("./src/buffs/index.ts");
+/******/ 	
+/******/ 	return __nested_webpack_exports__;
+/******/ })()
+;
+});
+
+/***/ }),
+
+/***/ "../node_modules/alt1/dist/ocr/index.js":
+/*!**********************************************!*\
+  !*** ../node_modules/alt1/dist/ocr/index.js ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory(__webpack_require__(/*! alt1/base */ "../node_modules/alt1/dist/base/index.js"));
+	else {}
+})(globalThis, (__WEBPACK_EXTERNAL_MODULE_alt1_base__) => {
+return /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/ocr/index.ts":
+/*!**************************!*\
+  !*** ./src/ocr/index.ts ***!
+  \**************************/
+/***/ ((__unused_webpack_module, exports, __nested_webpack_require_728__) => {
+
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.generatefont = exports.readChar = exports.readSmallCapsBackwards = exports.readLine = exports.getChatColor = exports.GetChatColorMono = exports.findReadLine = exports.findChar = exports.decompose3col = exports.decomposeblack = exports.decompose2col = exports.canblend = exports.unblendTrans = exports.unblendKnownBg = exports.unblendBlackBackground = exports.debugFont = exports.debugout = exports.debug = void 0;
+const base_1 = __nested_webpack_require_728__(/*! alt1/base */ "alt1/base");
+exports.debug = {
+    printcharscores: false,
+    trackread: false
+};
+exports.debugout = {};
+/**
+ * draws the font definition to a buffer and displays it in the dom for debugging purposes
+ * @param font
+ */
+function debugFont(font) {
+    var spacing = font.width + 2;
+    var buf = new base_1.ImageData(spacing * font.chars.length, font.height + 1);
+    for (var a = 0; a < buf.data.length; a += 4) {
+        buf.data[a] = buf.data[a + 1] = buf.data[a + 2] = 0;
+        buf.data[a + 3] = 255;
+    }
+    for (var a = 0; a < font.chars.length; a++) {
+        var bx = a * spacing;
+        var chr = font.chars[a];
+        for (var b = 0; b < chr.pixels.length; b += (font.shadow ? 4 : 3)) {
+            buf.setPixel(bx + chr.pixels[b], chr.pixels[b + 1], [chr.pixels[b + 2], chr.pixels[b + 2], chr.pixels[b + 2], 255]);
+            if (font.shadow) {
+                buf.setPixel(bx + chr.pixels[b], chr.pixels[b + 1], [chr.pixels[b + 3], 0, 0, 255]);
+            }
+        }
+    }
+    buf.show();
+}
+exports.debugFont = debugFont;
+function unblendBlackBackground(img, r, g, b) {
+    var rimg = new base_1.ImageData(img.width, img.height);
+    for (var i = 0; i < img.data.length; i += 4) {
+        var col = decomposeblack(img.data[i], img.data[i + 1], img.data[i + 2], r, g, b);
+        rimg.data[i + 0] = col[0] * 255;
+        rimg.data[i + 1] = rimg.data[i + 0];
+        rimg.data[i + 2] = rimg.data[i + 0];
+        rimg.data[i + 3] = 255;
+    }
+    return rimg;
+}
+exports.unblendBlackBackground = unblendBlackBackground;
+/**
+ * unblends a imagebuffer into match strength with given color
+ * the bgimg argument should contain a second image with pixel occluded by the font visible.
+ * @param img
+ * @param shadow detect black as second color
+ * @param bgimg optional second image to
+ */
+function unblendKnownBg(img, bgimg, shadow, r, g, b) {
+    if (bgimg && (img.width != bgimg.width || img.height != bgimg.height)) {
+        throw "bgimg size doesn't match";
+    }
+    var rimg = new base_1.ImageData(img.width, img.height);
+    var totalerror = 0;
+    for (var i = 0; i < img.data.length; i += 4) {
+        var col = decompose2col(img.data[i], img.data[i + 1], img.data[i + 2], r, g, b, bgimg.data[i + 0], bgimg.data[i + 1], bgimg.data[i + 2]);
+        if (shadow) {
+            if (col[2] > 0.01) {
+                console.log("high error component: " + (col[2] * 100).toFixed(1) + "%");
+            }
+            totalerror += col[2];
+            var m = 1 - col[1] - Math.abs(col[2]); //main color+black=100%-bg-error
+            rimg.data[i + 0] = m * 255;
+            rimg.data[i + 1] = col[0] / m * 255;
+            rimg.data[i + 2] = rimg.data[i + 0];
+        }
+        else {
+            rimg.data[i + 0] = col[0] * 255;
+            rimg.data[i + 1] = rimg.data[i + 0];
+            rimg.data[i + 2] = rimg.data[i + 0];
+        }
+        rimg.data[i + 3] = 255;
+    }
+    return rimg;
+}
+exports.unblendKnownBg = unblendKnownBg;
+/**
+ * Unblends a font image that is already conpletely isolated to the raw image used ingame. This is the easiest mode for pixel fonts where alpha is 0 or 255, or for extracted font files.
+ * @param img
+ * @param r
+ * @param g
+ * @param b
+ * @param shadow whether the font has a black shadow
+ */
+function unblendTrans(img, shadow, r, g, b) {
+    var rimg = new base_1.ImageData(img.width, img.height);
+    var pxlum = r + g + b;
+    for (var i = 0; i < img.data.length; i += 4) {
+        if (shadow) {
+            var lum = img.data[i + 0] + img.data[i + 1] + img.data[i + 2];
+            rimg.data[i + 0] = img.data[i + 3];
+            rimg.data[i + 1] = lum / pxlum * 255;
+            rimg.data[i + 2] = rimg.data[i + 0];
+        }
+        else {
+            rimg.data[i + 0] = img.data[i + 3];
+            rimg.data[i + 1] = rimg.data[i + 0];
+            rimg.data[i + 2] = rimg.data[i + 0];
+        }
+        rimg.data[i + 3] = 255;
+    }
+    return rimg;
+}
+exports.unblendTrans = unblendTrans;
+/**
+ * Determised wether color [rgb]m can be a result of a blend with color [rgb]1 that is p (0-1) of the mix
+ * It returns the number that the second color has to lie outside of the possible color ranges
+ * @param rm resulting color
+ * @param r1 first color of the mix (the other color is unknown)
+ * @param p the portion of the [rgb]1 in the mix (0-1)
+ */
+function canblend(rm, gm, bm, r1, g1, b1, p) {
+    var m = Math.min(50, p / (1 - p));
+    var r = rm + (rm - r1) * m;
+    var g = gm + (gm - g1) * m;
+    var b = bm + (bm - b1) * m;
+    return Math.max(0, -r, -g, -b, r - 255, g - 255, b - 255);
+}
+exports.canblend = canblend;
+/**
+ * decomposes a color in 2 given component colors and returns the amount of each color present
+ * also return a third (noise) component which is the the amount leftover orthagonal from the 2 given colors
+ */
+function decompose2col(rp, gp, bp, r1, g1, b1, r2, g2, b2) {
+    //get the normal of the error (cross-product of both colors)
+    var r3 = g1 * b2 - g2 * b1;
+    var g3 = b1 * r2 - b2 * r1;
+    var b3 = r1 * g2 - r2 * g1;
+    //normalize to length 255
+    var norm = 255 / Math.sqrt(r3 * r3 + g3 * g3 + b3 * b3);
+    r3 *= norm;
+    g3 *= norm;
+    b3 *= norm;
+    return decompose3col(rp, gp, bp, r1, g1, b1, r2, g2, b2, r3, g3, b3);
+}
+exports.decompose2col = decompose2col;
+/**
+ * decomposes a pixel in a given color component and black and returns what proportion of the second color it contains
+ * this is not as formal as decompose 2/3 and only give a "good enough" number
+ */
+function decomposeblack(rp, gp, bp, r1, g1, b1) {
+    var dr = Math.abs(rp - r1);
+    var dg = Math.abs(gp - g1);
+    var db = Math.abs(bp - b1);
+    var maxdif = Math.max(dr, dg, db);
+    return [1 - maxdif / 255];
+}
+exports.decomposeblack = decomposeblack;
+/**
+ * decomposes a color in 3 given component colors and returns the amount of each color present
+ */
+function decompose3col(rp, gp, bp, r1, g1, b1, r2, g2, b2, r3, g3, b3) {
+    //P=x*C1+y*C2+z*C3
+    //assemble as matrix 
+    //M*w=p
+    //get inverse of M
+    //dirty written out version of cramer's rule
+    var A = g2 * b3 - b2 * g3;
+    var B = g3 * b1 - b3 * g1;
+    var C = g1 * b2 - b1 * g2;
+    var D = b2 * r3 - r2 * b3;
+    var E = b3 * r1 - r3 * b1;
+    var F = b1 * r2 - r1 * b2;
+    var G = r2 * g3 - g2 * r3;
+    var H = r3 * g1 - g3 * r1;
+    var I = r1 * g2 - g1 * r2;
+    var det = r1 * A + g1 * D + b1 * G;
+    //M^-1*p=w
+    var x = (A * rp + D * gp + G * bp) / det;
+    var y = (B * rp + E * gp + H * bp) / det;
+    var z = (C * rp + F * gp + I * bp) / det;
+    return [x, y, z];
+}
+exports.decompose3col = decompose3col;
+/**
+ * brute force to the exact position of the text
+ */
+function findChar(buffer, font, col, x, y, w, h) {
+    if (x < 0) {
+        return null;
+    }
+    if (y - font.basey < 0) {
+        return null;
+    }
+    if (x + w + font.width > buffer.width) {
+        return null;
+    }
+    if (y + h - font.basey + font.height > buffer.height) {
+        return null;
+    }
+    var best = 1000; //TODO finetune score constants
+    var bestchar = null;
+    for (var cx = x; cx < x + w; cx++) {
+        for (var cy = y; cy < y + h; cy++) {
+            var chr = readChar(buffer, font, col, cx, cy, false, false);
+            if (chr != null && chr.sizescore < best) {
+                best = chr.sizescore;
+                bestchar = chr;
+            }
+        }
+    }
+    return bestchar;
+}
+exports.findChar = findChar;
+/**
+ * reads text with unknown exact coord or color. The given coord should be inside the text
+ * color selection not implemented yet
+ */
+function findReadLine(buffer, font, cols, x, y, w = -1, h = -1) {
+    if (w == -1) {
+        w = font.width + font.spacewidth;
+        x -= Math.ceil(w / 2);
+    }
+    if (h == -1) {
+        h = 7;
+        y -= 1;
+    }
+    var chr = null;
+    if (cols.length > 1) {
+        //TODO use getChatColor() instead for non-mono?
+        var sorted = GetChatColorMono(buffer, new base_1.Rect(x, y - font.basey, w, h), cols);
+        //loop until we have a match (max 2 cols)
+        for (var a = 0; a < 2 && a < sorted.length && chr == null; a++) {
+            chr = findChar(buffer, font, sorted[a].col, x, y, w, h);
+        }
+    }
+    else {
+        chr = findChar(buffer, font, cols[0], x, y, w, h);
+    }
+    if (chr == null) {
+        return { debugArea: { x, y, w, h }, text: "", fragments: [] };
+    }
+    return readLine(buffer, font, cols, chr.x, chr.y, true, true);
+}
+exports.findReadLine = findReadLine;
+function GetChatColorMono(buf, rect, colors) {
+    var colormap = colors.map(c => ({ col: c, score: 0 }));
+    if (rect.x < 0 || rect.y < 0 || rect.x + rect.width > buf.width || rect.y + rect.height > buf.height) {
+        return colormap;
+    }
+    var data = buf.data;
+    var maxd = 50;
+    for (var colobj of colormap) {
+        var score = 0;
+        var col = colobj.col;
+        for (var y = rect.y; y < rect.y + rect.height; y++) {
+            for (var x = rect.x; x < rect.x + rect.width; x++) {
+                var i = x * 4 + y * 4 * buf.width;
+                var d = Math.abs(data[i] - col[0]) + Math.abs(data[i + 1] - col[1]) + Math.abs(data[i + 2] - col[2]);
+                if (d < maxd) {
+                    score += maxd - d;
+                }
+            }
+        }
+        colobj.score = score;
+    }
+    return colormap.sort((a, b) => b.score - a.score);
+}
+exports.GetChatColorMono = GetChatColorMono;
+function unblend(r, g, b, R, G, B) {
+    var m = Math.sqrt(r * r + g * g + b * b);
+    var n = Math.sqrt(R * R + G * G + B * B);
+    var x = (r * R + g * G + b * B) / n;
+    var y = Math.sqrt(Math.max(0, m * m - x * x));
+    var r1 = Math.max(0, (63.75 - y) * 4);
+    var r2 = x / n * 255;
+    if (r2 > 255) //brighter than refcol
+     {
+        r1 = Math.max(0, r1 - r2 + 255);
+        r2 = 255;
+    }
+    return [r1, r2];
+}
+function getChatColor(buf, rect, colors) {
+    var bestscore = -1.0;
+    var best = null;
+    var b2 = 0.0;
+    var data = buf.data;
+    for (let col of colors) {
+        var score = 0.0;
+        for (var y = rect.y; y < rect.y + rect.height; y++) {
+            for (var x = rect.x; x < rect.x + rect.width; x++) {
+                if (x < 0 || x + 1 >= buf.width) {
+                    continue;
+                }
+                if (y < 0 || y + 1 >= buf.width) {
+                    continue;
+                }
+                let i1 = buf.pixelOffset(x, y);
+                let i2 = buf.pixelOffset(x + 1, y + 1);
+                var pixel1 = unblend(data[i1 + 0], data[i1 + 1], data[i1 + 2], col[0], col[1], col[2]);
+                var pixel2 = unblend(data[i2 + 0], data[i2 + 1], data[i2 + 2], col[0], col[1], col[2]);
+                //TODO this is from c# can simplify a bit
+                var s = (pixel1[0] / 255 * pixel1[1] / 255) * (pixel2[0] / 255 * (255.0 - pixel2[1]) / 255);
+                score += s;
+            }
+        }
+        if (score > bestscore) {
+            b2 = bestscore;
+            bestscore = score;
+            best = col;
+        }
+        else if (score > b2) {
+            b2 = score;
+        }
+    }
+    //Console.WriteLine("color: " + bestcol + " - " + (bestscore - b2));
+    //bestscore /= rect.width * rect.height;
+    return best;
+}
+exports.getChatColor = getChatColor;
+/**
+ * reads a line of text with exactly known position and color. y should be the y coord of the text base line, x should be the first pixel of a new character
+ */
+function readLine(buffer, font, colors, x, y, forward, backward = false) {
+    if (typeof colors[0] != "number" && colors.length == 1) {
+        colors = colors[0];
+    }
+    var multicol = typeof colors[0] != "number";
+    var allcolors = multicol ? colors : [colors];
+    var detectcolor = function (sx, sy, backward) {
+        var w = Math.floor(font.width * 1.5);
+        if (backward) {
+            sx -= w;
+        }
+        sy -= font.basey;
+        return getChatColor(buffer, { x: sx, y: sy, width: w, height: font.height }, allcolors);
+    };
+    var fragments = [];
+    var x1 = x;
+    var x2 = x;
+    var maxspaces = (typeof font.maxspaces == "number" ? font.maxspaces : 1);
+    let fragtext = "";
+    let fraghadprimary = false;
+    var lastcol = null;
+    let addfrag = (forward) => {
+        if (!fragtext) {
+            return;
+        }
+        let frag = {
+            text: fragtext,
+            color: lastcol,
+            index: 0,
+            xstart: x + (forward ? fragstartdx : fragenddx),
+            xend: x + (forward ? fragenddx : fragstartdx)
+        };
+        if (forward) {
+            fragments.push(frag);
+        }
+        else {
+            fragments.unshift(frag);
+        }
+        fragtext = "";
+        fragstartdx = dx;
+        fraghadprimary = false;
+    };
+    for (var dirforward of [true, false]) {
+        //init vars
+        if (dirforward && !forward) {
+            continue;
+        }
+        if (!dirforward && !backward) {
+            continue;
+        }
+        var dx = 0;
+        var fragstartdx = dx;
+        var fragenddx = dx;
+        var triedspaces = 0;
+        var triedrecol = false;
+        var col = multicol ? null : colors;
+        while (true) {
+            col = col || detectcolor(x + dx, y, !dirforward);
+            var chr = (col ? readChar(buffer, font, col, x + dx, y, !dirforward, true) : null);
+            if (col == null || chr == null) {
+                if (triedspaces < maxspaces) {
+                    dx += (dirforward ? 1 : -1) * font.spacewidth;
+                    triedspaces++;
+                    continue;
+                }
+                if (multicol && !triedrecol && fraghadprimary) {
+                    dx -= (dirforward ? 1 : -1) * triedspaces * font.spacewidth;
+                    triedspaces = 0;
+                    col = null;
+                    triedrecol = true;
+                    continue;
+                }
+                if (dirforward) {
+                    x2 = x + dx - font.spacewidth;
+                }
+                else {
+                    x1 = x + dx + font.spacewidth;
+                }
+                break;
+            }
+            else {
+                if (lastcol && (col[0] != lastcol[0] || col[1] != lastcol[1] || col[2] != lastcol[2])) {
+                    addfrag(dirforward);
+                }
+                var spaces = "";
+                for (var a = 0; a < triedspaces; a++) {
+                    spaces += " ";
+                }
+                if (dirforward) {
+                    fragtext += spaces + chr.chr;
+                }
+                else {
+                    fragtext = chr.chr + spaces + fragtext;
+                }
+                if (!chr.basechar.secondary) {
+                    fraghadprimary = true;
+                }
+                triedspaces = 0;
+                triedrecol = false;
+                dx += (dirforward ? 1 : -1) * chr.basechar.width;
+                fragenddx = dx;
+                lastcol = col;
+            }
+        }
+        if (lastcol && fraghadprimary) {
+            addfrag(dirforward);
+        }
+    }
+    fragments.forEach((f, i) => f.index = i);
+    return {
+        debugArea: { x: x1, y: y - 9, w: x2 - x1, h: 10 },
+        text: fragments.map(f => f.text).join(""),
+        fragments
+    };
+}
+exports.readLine = readLine;
+/**
+ * Reads a line of text that uses a smallcaps font, these fonts can have duplicate chars that only have a different amount of
+ * empty space after the char before the next char starts.
+ * The coordinates should be near the end of the string, or a rectangle with high 1 containing all points where the string can end.
+ */
+function readSmallCapsBackwards(buffer, font, cols, x, y, w = -1, h = -1) {
+    if (w == -1) {
+        w = font.width + font.spacewidth;
+        x -= Math.ceil(w / 2);
+    }
+    if (h == -1) {
+        h = 7;
+        y -= 1;
+    }
+    var matchedchar = null;
+    var sorted = (cols.length == 1 ? [{ col: cols[0], score: 1 }] : GetChatColorMono(buffer, new base_1.Rect(x, y - font.basey, w, h), cols));
+    //loop until we have a match (max 2 cols)
+    for (var a = 0; a < 2 && a < sorted.length && matchedchar == null; a++) {
+        for (var cx = x + w - 1; cx >= x; cx--) {
+            var best = 1000; //TODO finetune score constants
+            var bestchar = null;
+            for (var cy = y; cy < y + h; cy++) {
+                var chr = readChar(buffer, font, sorted[a].col, cx, cy, true, false);
+                if (chr != null && chr.sizescore < best) {
+                    best = chr.sizescore;
+                    bestchar = chr;
+                }
+            }
+            if (bestchar) {
+                matchedchar = bestchar;
+                break;
+            }
+        }
+    }
+    if (matchedchar == null) {
+        return { text: "", debugArea: { x, y, w, h } };
+    }
+    return readLine(buffer, font, cols, matchedchar.x, matchedchar.y, false, true);
+}
+exports.readSmallCapsBackwards = readSmallCapsBackwards;
+/**
+ * Reads a single character at the exact given location
+ * @param x exact x location of the start of the character domain (includes part of the spacing between characters)
+ * @param y exact y location of the baseline pixel of the character
+ * @param backwards read in backwards direction, the x location should be the first pixel after the character domain in that case
+ */
+function readChar(buffer, font, col, x, y, backwards, allowSecondary) {
+    y -= font.basey;
+    var shiftx = 0;
+    var shifty = font.basey;
+    var shadow = font.shadow;
+    var debugobj = null;
+    var debugimg = null;
+    if (exports.debug.trackread) {
+        var name = x + ";" + y + " " + JSON.stringify(col);
+        if (!exports.debugout[name]) {
+            exports.debugout[name] = [];
+        }
+        debugobj = exports.debugout[name];
+    }
+    //===== make sure the full domain is inside the bitmap/buffer ======
+    if (y < 0 || y + font.height >= buffer.height) {
+        return null;
+    }
+    if (!backwards) {
+        if (x < 0 || x + font.width > buffer.width) {
+            return null;
+        }
+    }
+    else {
+        if (x - font.width < 0 || x > buffer.width) {
+            return null;
+        }
+    }
+    //====== start reading the char ======
+    var scores = [];
+    for (var chr = 0; chr < font.chars.length; chr++) {
+        var chrobj = font.chars[chr];
+        if (chrobj.secondary && !allowSecondary) {
+            continue;
+        }
+        scores[chr] = { score: 0, sizescore: 0, chr: chrobj };
+        var chrx = (backwards ? x - chrobj.width : x);
+        if (exports.debug.trackread) {
+            debugimg = new base_1.ImageData(font.width, font.height);
+        }
+        for (var a = 0; a < chrobj.pixels.length;) {
+            var i = (chrx + chrobj.pixels[a]) * 4 + (y + chrobj.pixels[a + 1]) * buffer.width * 4;
+            var penalty = 0;
+            if (!shadow) {
+                penalty = canblend(buffer.data[i], buffer.data[i + 1], buffer.data[i + 2], col[0], col[1], col[2], chrobj.pixels[a + 2] / 255);
+                a += 3;
+            }
+            else {
+                var lum = chrobj.pixels[a + 3] / 255;
+                penalty = canblend(buffer.data[i], buffer.data[i + 1], buffer.data[i + 2], col[0] * lum, col[1] * lum, col[2] * lum, chrobj.pixels[a + 2] / 255);
+                a += 4;
+            }
+            scores[chr].score += Math.max(0, penalty);
+            //TODO add compiler flag to this to remove it for performance
+            if (debugimg) {
+                debugimg.setPixel(chrobj.pixels[a], chrobj.pixels[a + 1], [penalty, penalty, penalty, 255]);
+            }
+        }
+        scores[chr].sizescore = scores[chr].score - chrobj.bonus;
+        if (debugobj) {
+            debugobj.push({ chr: chrobj.chr, score: scores[chr].sizescore, rawscore: scores[chr].score, img: debugimg });
+        }
+    }
+    scores.sort((a, b) => a.sizescore - b.sizescore);
+    if (exports.debug.printcharscores) {
+        scores.slice(0, 5).forEach(q => console.log(q.chr.chr, q.score.toFixed(3), q.sizescore.toFixed(3)));
+    }
+    var winchr = scores[0];
+    if (!winchr || winchr.score > 400) {
+        return null;
+    }
+    return { chr: winchr.chr.chr, basechar: winchr.chr, x: x + shiftx, y: y + shifty, score: winchr.score, sizescore: winchr.sizescore };
+}
+exports.readChar = readChar;
+/**
+ * Generates a font json description to use in reader functions
+ * @param unblended A source image with all characters lined up. The image should be unblended into components using the unblend functions
+ * The lowest pixel line of this image is used to mark the location and size of the charecters if the red component is 255 it means there is a character on that pixel column
+ * @param chars A string containing all the characters of the image in the same order
+ * @param seconds A string with characters that are considered unlikely and should only be detected if no other character is possible.
+ * For example the period (.) character matches positive inside many other characters and should be marked as secondary
+ * @param bonusses An object that contains bonus scores for certain difficult characters to make the more likely to be red.
+ * @param basey The y position of the baseline pixel of the font
+ * @param spacewidth the number of pixels a space takes
+ * @param treshold minimal color match proportion (0-1) before a pixel is used for the font
+ * @param shadow whether this font also uses the black shadow some fonts have. The "unblended" image should be unblended correspondingly
+ * @returns a javascript object describing the font which is used as input for the different read functions
+ */
+function generatefont(unblended, chars, seconds, bonusses, basey, spacewidth, treshold, shadow) {
+    //settings vars
+    treshold *= 255;
+    //initial vars
+    var miny = unblended.height - 1;
+    var maxy = 0;
+    var font = { chars: [], width: 0, spacewidth: spacewidth, shadow: shadow, height: 0, basey: 0 };
+    var ds = false;
+    var chardata = [];
+    //index all chars
+    for (var dx = 0; dx < unblended.width; dx++) {
+        var i = 4 * dx + 4 * unblended.width * (unblended.height - 1);
+        if (unblended.data[i] == 255 && unblended.data[i + 3] == 255) {
+            if (ds === false) {
+                ds = dx;
+            }
+        }
+        else {
+            if (ds !== false) {
+                //char found, start detection
+                var de = dx;
+                var char = chars[chardata.length];
+                var chr = {
+                    ds: ds,
+                    de: de,
+                    width: de - ds,
+                    chr: char,
+                    bonus: (bonusses && bonusses[char]) || 0,
+                    secondary: seconds.indexOf(chars[chardata.length]) != -1,
+                    pixels: []
+                };
+                chardata.push(chr);
+                font.width = Math.max(font.width, chr.width);
+                for (x = 0; x < de - ds; x++) {
+                    for (y = 0; y < unblended.height - 1; y++) {
+                        var i = (x + ds) * 4 + y * unblended.width * 4;
+                        if (unblended.data[i] >= treshold) {
+                            miny = Math.min(miny, y);
+                            maxy = Math.max(maxy, y);
+                        }
+                    }
+                }
+                ds = false;
+            }
+        }
+    }
+    font.height = maxy + 1 - miny;
+    font.basey = basey - miny;
+    //detect all pixels
+    for (var a in chardata) {
+        var chr = chardata[a];
+        for (var x = 0; x < chr.width; x++) {
+            for (var y = 0; y < maxy + 1 - miny; y++) {
+                var i = (x + chr.ds) * 4 + (y + miny) * unblended.width * 4;
+                if (unblended.data[i] >= treshold) {
+                    chr.pixels.push(x, y);
+                    chr.pixels.push(unblended.data[i]);
+                    if (shadow) {
+                        chr.pixels.push(unblended.data[i + 1]);
+                    }
+                    chr.bonus += 5;
+                }
+            }
+        }
+        //prevent js from doing the thing with unnecessary output precision
+        chr.bonus = +chr.bonus.toFixed(3);
+        font.chars.push({ width: chr.width, bonus: chr.bonus, chr: chr.chr, pixels: chr.pixels, secondary: chr.secondary });
+    }
+    return font;
+}
+exports.generatefont = generatefont;
+
+
+/***/ }),
+
+/***/ "alt1/base":
+/*!**************************************************************************************************!*\
+  !*** external {"root":"A1lib","commonjs2":"alt1/base","commonjs":"alt1/base","amd":"alt1/base"} ***!
+  \**************************************************************************************************/
+/***/ ((module) => {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_alt1_base__;
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __nested_webpack_require_26177__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __nested_webpack_require_26177__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __nested_webpack_exports__ = __nested_webpack_require_26177__("./src/ocr/index.ts");
+/******/ 	
+/******/ 	return __nested_webpack_exports__;
+/******/ })()
+;
+});
+
 /***/ })
 
 /******/ 	});
@@ -2942,12 +4098,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var alt1__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! alt1 */ "../node_modules/alt1/dist/base/index.js");
 /* harmony import */ var alt1__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(alt1__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var alt1_buffs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! alt1/buffs */ "../node_modules/alt1/dist/buffs/index.js");
+/* harmony import */ var alt1_buffs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(alt1_buffs__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ "./index.html");
 /* harmony import */ var _appconfig_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appconfig.json */ "./appconfig.json");
 /* harmony import */ var _icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icon.png */ "./icon.png");
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./index.css");
+var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
 // alt1 base libs, provides all the commonly used methods for image matching and capture
 // also gives your editor info about the window.alt1 api
+
 
 // tell webpack that this file relies index.html, appconfig.json and icon.png, this makes webpack
 // add these files to the output directory
@@ -2967,7 +4162,7 @@ var necrosis = alt1__WEBPACK_IMPORTED_MODULE_4__.webpackImages({
     8: __webpack_require__(/*! ./necro8.data.png */ "./necro8.data.png"),
     10: __webpack_require__(/*! ./necro10.data.png */ "./necro10.data.png"),
     12: __webpack_require__(/*! ./necro12.data.png */ "./necro12.data.png"),
-    fod_big: __webpack_require__(/*! ./fod_big.data.png */ "./fod_big.data.png"),
+    fod: __webpack_require__(/*! ./fod.data.png */ "./fod.data.png"),
     soul1: __webpack_require__(/*! ./soul1.data.png */ "./soul1.data.png"),
     soul2: __webpack_require__(/*! ./soul2.data.png */ "./soul2.data.png"),
     soul3: __webpack_require__(/*! ./soul3.data.png */ "./soul3.data.png"),
@@ -2987,12 +4182,12 @@ function monitorNecrosis(img) {
     var soul3 = img.findSubimage(necrosis.soul3).length;
     var soul4 = img.findSubimage(necrosis.soul4).length;
     var soul5 = img.findSubimage(necrosis.soul5).length;
-    var fod_big = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.fod_big);
+    var fod = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.fod);
     var strike = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.strike);
     var volley = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.volley);
     if (getSetting("track_fod")) {
         if (is6 || is8 || is10 || is12) {
-            alt1.overLayImage(loc.x + 6, loc.y + 6, fod_big, 60, 300);
+            alt1.overLayImage(loc.x + 6, loc.y + 6, fod, 60, 300);
             alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 3, loc.y + 3, 63, 63, 300, 3);
         }
     }
@@ -3004,8 +4199,8 @@ function monitorNecrosis(img) {
     }
     if (getSetting("track_volley")) {
         if (soul3 || soul4 || soul5) {
-            alt1.overLayImage(loc.x + 71, loc.y + 6, volley, 60, 300);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 68, loc.y + 3, 63, 63, 300, 3);
+            alt1.overLayImage(loc.x + 136, loc.y + 6, volley, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 133, loc.y + 3, 63, 63, 300, 3);
         }
     }
 }
@@ -3031,11 +4226,16 @@ function start() {
         track_fod.checked = getSetting("track_fod");
         track_volley.checked = getSetting("track_volley");
         track_strike.checked = getSetting("track_strike");
-        var img = alt1__WEBPACK_IMPORTED_MODULE_4__.captureHoldFullRs();
-        monitorNecrosis(img);
+        var buffsLoc_1 = getSetting("buffsLoc");
         setInterval(function () {
-            var img = alt1__WEBPACK_IMPORTED_MODULE_4__.captureHoldFullRs();
-            monitorNecrosis(img);
+            return __awaiter(this, void 0, void 0, function () {
+                var img;
+                return __generator(this, function (_a) {
+                    img = alt1__WEBPACK_IMPORTED_MODULE_4__.captureHold(buffsLoc_1.x, buffsLoc_1.y, buffsLoc_1.width, buffsLoc_1.height);
+                    monitorNecrosis(img);
+                    return [2 /*return*/];
+                });
+            });
         }, 200);
     }
     catch (error) {
@@ -3046,6 +4246,7 @@ function start() {
 function setLoc() {
     alt1__WEBPACK_IMPORTED_MODULE_4__.once("alt1pressed", onalt1);
     alt1.setTooltip("Move mouse to where you want to relocate the interface.  Then press Alt+1");
+    output.innerHTML = "Move mouse to where you want to relocate the interface.  Then press Alt+1";
     drawInterface = setInterval(function () {
         alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().x - 65, alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().y - 35, 130, 70, 200, 1);
     }, 200);
@@ -3054,6 +4255,7 @@ function onalt1(e) {
     saveSettings("loc", { x: e.x - 65, y: e.y - 35 });
     clearInterval(drawInterface);
     alt1.clearTooltip();
+    output.innerHTML = "";
 }
 function saveSettings(setting, value) {
     if (!localStorage.getItem("necroJobGauge")) {
@@ -3077,8 +4279,14 @@ function initializeSettings() {
         },
         track_fod: false,
         track_strike: false,
-        track_volley: false
+        track_volley: false,
+        buffsLoc: getBuffsLoc()
     }));
+}
+function getBuffsLoc() {
+    var buffs = new (alt1_buffs__WEBPACK_IMPORTED_MODULE_5___default())();
+    buffs.find();
+    return buffs.getCaptRect();
 }
 
 })();
