@@ -4213,10 +4213,6 @@ function monitorNecrosis(img) {
             alt1.overLayImage(loc.x + 136, loc.y + 6, volley, 60, 300);
             alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 133, loc.y + 3, 63, 63, 300, 3);
         }
-        if (soul4)
-            alt1.overLayText("x4", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 133, loc.y + 3, 300);
-        if (soul5)
-            alt1.overLayText("x5", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 133, loc.y + 3, 300);
     }
 }
 window.onload = function () {
