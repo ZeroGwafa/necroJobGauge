@@ -4190,18 +4190,33 @@ function monitorNecrosis(img) {
             alt1.overLayImage(loc.x + 6, loc.y + 6, fod, 60, 300);
             alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 3, loc.y + 3, 63, 63, 300, 3);
         }
+        if (is12) {
+            alt1.overLayText("x2", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 3, loc.y + 3, 300);
+        }
     }
     if (getSetting("track_strike")) {
-        if (soul1 || soul2) {
+        if (soul1 || soul2 || soul3 || soul4 || soul5) {
             alt1.overLayImage(loc.x + 71, loc.y + 6, strike, 60, 300);
             alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 68, loc.y + 3, 63, 63, 300, 3);
         }
+        if (soul2)
+            alt1.overLayText("x2", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 68, loc.y + 3, 300);
+        if (soul3)
+            alt1.overLayText("x3", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 68, loc.y + 3, 300);
+        if (soul4)
+            alt1.overLayText("x4", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 68, loc.y + 3, 300);
+        if (soul5)
+            alt1.overLayText("x5", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 68, loc.y + 3, 300);
     }
     if (getSetting("track_volley")) {
         if (soul3 || soul4 || soul5) {
             alt1.overLayImage(loc.x + 136, loc.y + 6, volley, 60, 300);
             alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), loc.x + 133, loc.y + 3, 63, 63, 300, 3);
         }
+        if (soul4)
+            alt1.overLayText("x4", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 133, loc.y + 3, 300);
+        if (soul5)
+            alt1.overLayText("x5", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), 20, loc.x + 133, loc.y + 3, 300);
     }
 }
 window.onload = function () {
@@ -4248,11 +4263,11 @@ function setLoc() {
     alt1.setTooltip("Move mouse to where you want to relocate the interface.  Then press Alt+1");
     output.innerHTML = "Move mouse to where you want to relocate the interface.  Then press Alt+1";
     drawInterface = setInterval(function () {
-        alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().x - 65, alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().y - 35, 130, 70, 200, 1);
+        alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().x - 98, alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().y - 35, 195, 70, 200, 1);
     }, 200);
 }
 function onalt1(e) {
-    saveSettings("loc", { x: e.x - 65, y: e.y - 35 });
+    saveSettings("loc", { x: e.x - 98, y: e.y - 35 });
     clearInterval(drawInterface);
     alt1.clearTooltip();
     output.innerHTML = "";
