@@ -4153,6 +4153,7 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 
 
 var output = document.getElementById("output");
+var settings = document.getElementById("settings");
 var track_fod = document.getElementById("fod");
 var track_strike = document.getElementById("strike");
 var track_volley = document.getElementById("volley");
@@ -4222,7 +4223,17 @@ window.onload = function () {
         //this makes alt1 show the add app button when running inside the embedded browser
         //also updates app settings if they are changed
         alt1.identifyAppUrl("./appconfig.json");
-        start();
+        var buffs_1 = new (alt1_buffs__WEBPACK_IMPORTED_MODULE_5___default())();
+        output.innerHTML = "Searching for buffs...";
+        settings.style.display = "none";
+        var findBuffs_1 = setInterval(function () {
+            if (buffs_1.find()) {
+                settings.style.display = "block";
+                output.innerHTML = "";
+                clearInterval(findBuffs_1);
+                start();
+            }
+        });
     }
     else {
         var addappurl = "alt1://addapp/".concat(new URL("./appconfig.json", document.location.href).href);
@@ -4296,8 +4307,12 @@ function initializeSettings() {
 }
 function getBuffsLoc() {
     var buffs = new (alt1_buffs__WEBPACK_IMPORTED_MODULE_5___default())();
-    buffs.find();
-    return buffs.getCaptRect();
+    if (buffs.find()) {
+        return buffs.getCaptRect();
+    }
+    else {
+        getBuffsLoc();
+    }
 }
 
 })();
