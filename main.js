@@ -4427,10 +4427,8 @@ function monitorNecrosis(img) {
         var targetDisplay = new (alt1_targetmob__WEBPACK_IMPORTED_MODULE_5___default())();
         targetDisplay.read();
         if (targetDisplay.lastpos === null) {
-            output.innerHTML = "Please attack/target something so that the app can locate your Combat Target interface!";
             return null;
         }
-        output.innerHTML = "";
         var target_display_loc = {
             x: targetDisplay.lastpos.x - 120,
             y: targetDisplay.lastpos.y + 20,
