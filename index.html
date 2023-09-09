@@ -8,19 +8,55 @@
 	<div id="output"></div>
 	<div id="settings">
 		<button onclick=TestApp.setLoc()>Set position</button>
+		<!-- <button onclick=TestApp.test()>Test</button> -->
 		<table>
-			<tr><th colspan=2>Alerts</th></tr>
+			<tr>
+				<th colspan="2">Ability Tracking</th>
+			</tr>
 			<tr>
 				<td>Finger of Death</td>
 				<td><input type="checkbox" id="fod" onchange="TestApp.saveSettings('track_fod', this.checked)"></td>
 			</tr>
 			<tr>
 				<td>Soul Strike</td>
-				<td><input type="checkbox" id="strike" onchange="TestApp.saveSettings('track_strike', this.checked)"></td>
+				<td><input type="checkbox" id="strike" onchange="TestApp.saveSettings('track_strike', this.checked)">
+				</td>
 			</tr>
 			<tr>
 				<td>Volley of Souls</td>
-				<td><input type="checkbox" id="volley" onchange="TestApp.saveSettings('track_volley', this.checked)"></td>
+				<td><input type="checkbox" id="volley" onchange="TestApp.saveSettings('track_volley', this.checked)">
+				</td>
+			</tr>
+			<tr>
+				<td>Target Bloated</td>
+				<td><input type="checkbox" id="bloated" onchange="TestApp.saveSettings('track_bloat', this.checked)">
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2">Font Settings</th>
+			</tr>
+			<tr>
+				<td>Font</td>
+				<td><select id="font" onchange="TestApp.saveSettings('font_name', this.value)"></td>
+			</tr>
+			<tr>
+				<td>Font Color</td>
+				<td><input id="font_color" type="color" onchange="TestApp.saveSettings('font_color',this.value)"></td>
+			</tr>
+			<tr>
+				<td>Font Size</td>
+				<td><input id="font_size" type="number" onchange="TestApp.saveSettings('font_size',this.value)"></td>
+			</tr>
+			<tr>
+				<th colspan="2">Font Position Adjustment</th>
+			</tr>
+			<tr>
+				<td>X: </td>
+				<td><input id="font_pos_x" type="number" onchange="TestApp.saveSettings('font_pos_x',this.value)"></td>
+			</tr>
+			<tr>
+				<td>Y:</td>
+				<td><input id="font_pos_y" type="number" onchange="TestApp.saveSettings('font_pos_y',this.value)"></td>
 			</tr>
 		</table>
 	</div>
