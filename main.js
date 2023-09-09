@@ -4281,6 +4281,7 @@ var __webpack_exports__ = {};
   \******************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   factoryReset: () => (/* binding */ factoryReset),
 /* harmony export */   hextoRGB: () => (/* binding */ hextoRGB),
 /* harmony export */   saveSettings: () => (/* binding */ saveSettings),
 /* harmony export */   setLoc: () => (/* binding */ setLoc),
@@ -4570,6 +4571,10 @@ function hextoRGB(hex) {
     var g = parseInt(hex.slice(3, 5), 16);
     var b = parseInt(hex.slice(5, 7), 16);
     return { r: r, g: g, b: b };
+}
+function factoryReset() {
+    localStorage.removeItem("necroJobGauge");
+    location.reload();
 }
 
 })();
