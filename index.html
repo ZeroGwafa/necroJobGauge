@@ -28,6 +28,11 @@
 				</td>
 			</tr>
 			<tr>
+				<td>Soulbound Lantern?</td>
+				<td><input type="checkbox" id="t95" onchange="TestApp.saveSettings('track_t95', this.checked)">
+				</td>
+			</tr>
+			<tr>
 				<td>Target Bloated</td>
 				<td><input type="checkbox" id="bloated" onchange="TestApp.saveSettings('track_bloat', this.checked)">
 				</td>
@@ -37,7 +42,7 @@
 			</tr>
 			<tr>
 				<td>Font</td>
-				<td><select id="font" onchange="TestApp.saveSettings('font_name', this.value)"></td>
+				<td><select id="font_name" onchange="TestApp.saveSettings('font_name', this.value)"></td>
 			</tr>
 			<tr>
 				<td>Font Color</td>
@@ -51,11 +56,11 @@
 				<th colspan="2">Font Position Adjustment</th>
 			</tr>
 			<tr>
-				<td>X: </td>
+				<td>Left/Right</td>
 				<td><input id="font_pos_x" type="number" onchange="TestApp.saveSettings('font_pos_x',this.value)"></td>
 			</tr>
 			<tr>
-				<td>Y:</td>
+				<td>Up/Down</td>
 				<td><input id="font_pos_y" type="number" onchange="TestApp.saveSettings('font_pos_y',this.value)"></td>
 			</tr>
 		</table>

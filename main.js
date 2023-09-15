@@ -173,6 +173,16 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `input{
     width: 40px;
+}
+
+table, tr, td{
+    border: black solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#font_name {
+    width:115px
 }`, ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
@@ -4351,7 +4361,9 @@ var settings = document.getElementById("settings");
 var track_fod = document.getElementById("fod");
 var track_strike = document.getElementById("strike");
 var track_volley = document.getElementById("volley");
-var font_name = document.getElementById("font");
+var track_t95 = document.getElementById("t95");
+var font_name = document.getElementById("font_name");
+var font_size = document.getElementById("font_size");
 var font_color = document.getElementById("font_color");
 var font_pos_x = document.getElementById("font_pos_x");
 var font_pos_y = document.getElementById("font_pos_y");
@@ -4419,7 +4431,11 @@ function monitorNecrosis(img) {
             alt1.overLayTextEx("x5", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, displayLoc.x + icon_pos[1] - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
     }
     if (getSetting("track_volley")) {
-        if (soul3 || soul4 || soul5) {
+        if (getSetting("track_t95") && soul5) {
+            alt1.overLayImage(displayLoc.x + icon_pos[2], displayLoc.y + 6, volley, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), displayLoc.x + icon_pos[2] - 3, displayLoc.y + 3, 63, 63, 300, 3);
+        }
+        else if (!getSetting("track_t95") && soul3) {
             alt1.overLayImage(displayLoc.x + icon_pos[2], displayLoc.y + 6, volley, 60, 300);
             alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), displayLoc.x + icon_pos[2] - 3, displayLoc.y + 3, 63, 63, 300, 3);
         }
@@ -4534,6 +4550,7 @@ function initializeSettings() {
         track_fod: false,
         track_strike: false,
         track_volley: false,
+        track_t95: false,
         track_bloat: false,
         buffsLoc: getBuffsLoc(),
         font_name: "Arial Black",
@@ -4560,8 +4577,10 @@ function verifySettings() {
     track_fod.checked = getSetting("track_fod");
     track_volley.checked = getSetting("track_volley");
     track_strike.checked = getSetting("track_strike");
+    track_t95.checked = getSetting("track_t95");
     font_name.value = getSetting("font_name");
     font_color.value = getSetting("font_color");
+    font_size.value = getSetting("font_size");
     font_pos_x.value = getSetting("font_pos_x");
     font_pos_y.value = getSetting("font_pos_y");
     bloated.checked = getSetting("track_bloat");
