@@ -4368,6 +4368,7 @@ var font_color = document.getElementById("font_color");
 var font_pos_x = document.getElementById("font_pos_x");
 var font_pos_y = document.getElementById("font_pos_y");
 var bloated = document.getElementById("bloated");
+// var vuln = document.getElementById("vulnerable") as HTMLInputElement;
 var drawInterface = null;
 var fontNames = ['Arial', 'Arial Black', 'Bahnschrift', 'Calibri', 'Cambria', 'Cambria Math', 'Candara', 'Comic Sans MS', 'Consolas', 'Constantia', 'Corbel', 'Courier New', 'Ebrima', 'Franklin Gothic Medium', 'Gabriola', 'Gadugi', 'Georgia', 'HoloLens MDL2 Assets', 'Impact', 'Ink Free', 'Javanese Text', 'Leelawadee UI', 'Lucida Console', 'Lucida Sans Unicode', 'Malgun Gothic', 'Marlett', 'Microsoft Himalaya', 'Microsoft JhengHei', 'Microsoft New Tai Lue', 'Microsoft PhagsPa', 'Microsoft Sans Serif', 'Microsoft Tai Le', 'Microsoft YaHei', 'Microsoft Yi Baiti', 'MingLiU-ExtB', 'Mongolian Baiti', 'MS Gothic', 'MV Boli', 'Myanmar Text', 'Nirmala UI', 'Palatino Linotype', 'Segoe MDL2 Assets', 'Segoe Print', 'Segoe Script', 'Segoe UI', 'Segoe UI Historic', 'Segoe UI Emoji', 'Segoe UI Symbol', 'SimSun', 'Sitka', 'Sylfaen', 'Symbol', 'Tahoma', 'Times New Roman', 'Trebuchet MS', 'Verdana', 'Webdings', 'Wingdings'];
 var icon_pos = [6, 71, 136, 201];
@@ -4385,7 +4386,9 @@ var necrosis = alt1__WEBPACK_IMPORTED_MODULE_4__.webpackImages({
     volley: __webpack_require__(/*! ./volley.data.png */ "./volley.data.png"),
     strike: __webpack_require__(/*! ./strike.data.png */ "./strike.data.png"),
     bloat: __webpack_require__(/*! ./bloat.data.png */ "./bloat.data.png"),
+    // vuln: require("./vuln.data.png"),
     target_bloated: __webpack_require__(/*! ./target_bloated.data.png */ "./target_bloated.data.png"),
+    // target_vuln: require("./target_vuln.data.png"),
 });
 function monitorNecrosis(img) {
     var displayLoc = getSetting("displayLoc");
@@ -4407,40 +4410,43 @@ function monitorNecrosis(img) {
     var strike = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.strike);
     var volley = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.volley);
     var bloat = alt1__WEBPACK_IMPORTED_MODULE_4__.encodeImageString(necrosis.bloat);
+    // var vuln = a1lib.encodeImageString(necrosis.vuln);
     if (getSetting("track_fod")) {
         if (is6 || is8 || is10 || is12) {
-            alt1.overLayImage(displayLoc.x + icon_pos[0], displayLoc.y + 6, fod, 60, 300);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), displayLoc.x + icon_pos[0] - 3, displayLoc.y + 3, 63, 63, 300, 3);
+            alt1.overLayImage(Math.round(displayLoc.x + icon_pos[0]), displayLoc.y + 6, fod, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), Math.round(displayLoc.x + icon_pos[0]) - 3, displayLoc.y + 3, 63, 63, 300, 3);
         }
         if (is12) {
-            alt1.overLayTextEx("x2", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, displayLoc.x + icon_pos[0] - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
+            alt1.overLayTextEx("x2", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, Math.round(displayLoc.x + icon_pos[0]) - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
         }
     }
     if (getSetting("track_strike")) {
         if (soul1 || soul2 || soul3 || soul4 || soul5) {
-            alt1.overLayImage(displayLoc.x + icon_pos[1], displayLoc.y + 6, strike, 60, 300);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), displayLoc.x + icon_pos[1] - 3, displayLoc.y + 3, 63, 63, 300, 3);
+            alt1.overLayImage(Math.round(displayLoc.x + icon_pos[1]), displayLoc.y + 6, strike, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), Math.round(displayLoc.x + icon_pos[1]) - 3, displayLoc.y + 3, 63, 63, 300, 3);
         }
+        var amount = "";
         if (soul2)
-            alt1.overLayTextEx("x2", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, displayLoc.x + icon_pos[1] - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
+            amount = "x2";
         if (soul3)
-            alt1.overLayTextEx("x3", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, displayLoc.x + icon_pos[1] - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
+            amount = "x3";
         if (soul4)
-            alt1.overLayTextEx("x4", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, displayLoc.x + icon_pos[1] - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
+            amount = "x4";
         if (soul5)
-            alt1.overLayTextEx("x5", alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, displayLoc.x + icon_pos[1] - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
+            amount = "x5";
+        alt1.overLayTextEx(amount, alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(font_color.r, font_color.g, font_color.b), font_size, Math.round(displayLoc.x + icon_pos[1]) - 3 + font_pos_x, displayLoc.y + 3 + font_pos_y, 300, font_name, false, true);
     }
     if (getSetting("track_volley")) {
         if (getSetting("track_t95") && soul5) {
-            alt1.overLayImage(displayLoc.x + icon_pos[2], displayLoc.y + 6, volley, 60, 300);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), displayLoc.x + icon_pos[2] - 3, displayLoc.y + 3, 63, 63, 300, 3);
+            alt1.overLayImage(Math.round(displayLoc.x + icon_pos[2]), displayLoc.y + 6, volley, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), Math.round(displayLoc.x + icon_pos[2]) - 3, displayLoc.y + 3, 63, 63, 300, 3);
         }
         else if (!getSetting("track_t95") && soul3) {
-            alt1.overLayImage(displayLoc.x + icon_pos[2], displayLoc.y + 6, volley, 60, 300);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), displayLoc.x + icon_pos[2] - 3, displayLoc.y + 3, 63, 63, 300, 3);
+            alt1.overLayImage(Math.round(displayLoc.x + icon_pos[2]), displayLoc.y + 6, volley, 60, 300);
+            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 255, 255), Math.round(displayLoc.x + icon_pos[2]) - 3, displayLoc.y + 3, 63, 63, 300, 3);
         }
     }
-    if (getSetting("track_bloat")) {
+    if (getSetting("track_bloat") || getSetting("track_vuln")) {
         var targetDisplay = new (alt1_targetmob__WEBPACK_IMPORTED_MODULE_5___default())();
         targetDisplay.read();
         if (targetDisplay.lastpos === null) {
@@ -4453,12 +4459,20 @@ function monitorNecrosis(img) {
             h: 60
         };
         var target_buffs = alt1__WEBPACK_IMPORTED_MODULE_4__.captureHold(target_display_loc.x, target_display_loc.y, target_display_loc.w, target_display_loc.h);
-        var isBloated = target_buffs.findSubimage(necrosis.target_bloated).length;
-        if (!isBloated) {
-            alt1.overLayImage(displayLoc.x + icon_pos[3], displayLoc.y + 6, bloat, 60, 300);
-            alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 0, 0), displayLoc.x + icon_pos[3] - 3, displayLoc.y + 3, 63, 63, 300, 3);
-            // alt1.overLayTextEx("Target not bloated!", a1lib.mixColor(font_color.r, font_color.g, font_color.b), font_size, displayLoc.x, displayLoc.y - 50, 300, font_name, false, true);
+        if (getSetting("track_bloat")) {
+            var isBloated = target_buffs.findSubimage(necrosis.target_bloated).length;
+            if (!isBloated) {
+                alt1.overLayImage(Math.round(displayLoc.x + icon_pos[3]), displayLoc.y + 6, bloat, 60, 300);
+                alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(255, 0, 0), Math.round(displayLoc.x + icon_pos[3]) - 3, displayLoc.y + 3, 63, 63, 300, 3);
+            }
         }
+        // if (getSetting("track_vuln")) {
+        // 	const isVuln = target_buffs.findSubimage(necrosis.target_vuln).length;
+        // 	if (!isVuln) {
+        // 		alt1.overLayImage(Math.round(displayLoc.x + icon_pos[4]), displayLoc.y + 6, vuln, 60, 300)
+        // 		alt1.overLayRect(a1lib.mixColor(255, 0, 0), Math.round(displayLoc.x + icon_pos[4]) - 3, displayLoc.y + 3, 63, 63, 300, 3)
+        // 	}
+        // }
     }
 }
 window.onload = function () {
@@ -4518,7 +4532,7 @@ function setLoc() {
     alt1.setTooltip("Move mouse to where you want to relocate the interface.  Then press Alt+1");
     output.innerHTML = "Move mouse to where you want to relocate the interface.  Then press Alt+1";
     drawInterface = setInterval(function () {
-        alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().x - (icon_pos.length * 65) / 2, alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().y - 35, icon_pos.length * 65, 70, 200, 1);
+        alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().x - Math.round((icon_pos.length * 65) / 2), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().y - 35, icon_pos.length * 65, 70, 200, 1);
     }, 200);
 }
 function updateLoc(e) {
@@ -4552,6 +4566,7 @@ function initializeSettings() {
         track_volley: false,
         track_t95: false,
         track_bloat: false,
+        // track_vuln: false,
         buffsLoc: getBuffsLoc(),
         font_name: "Arial Black",
         font_color: "#FFFFFF",
@@ -4584,6 +4599,7 @@ function verifySettings() {
     font_pos_x.value = getSetting("font_pos_x");
     font_pos_y.value = getSetting("font_pos_y");
     bloated.checked = getSetting("track_bloat");
+    // vuln.checked = getSetting("track_vuln");
 }
 function hextoRGB(hex) {
     var r = parseInt(hex.slice(1, 3), 16);
