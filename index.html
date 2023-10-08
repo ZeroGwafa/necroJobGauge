@@ -5,41 +5,41 @@
 </head>
 
 <body>
-	<div id="output"></div>
-	<div id="settings">
-		<button onclick=TestApp.setLoc()>Set position</button>
-		<button onclick=TestApp.factoryReset()>Reset Settings</button>
+	<div id="output">Searching for buffs...</div>
+	<div id="settings" style="display:none">
+		
+		
 		<table>
 			<tr>
 				<th colspan="2">Ability Tracking</th>
 			</tr>
 			<tr>
 				<td>Finger of Death</td>
-				<td><input type="checkbox" id="fod" onchange="TestApp.saveSettings('track_fod', this.checked)"></td>
+				<td><input type="checkbox" id="fod" onchange="NecroJobGauge.saveSettings('track_fod', this.checked)"></td>
 			</tr>
 			<tr>
 				<td>Soul Strike</td>
-				<td><input type="checkbox" id="strike" onchange="TestApp.saveSettings('track_strike', this.checked)">
+				<td><input type="checkbox" id="strike" onchange="NecroJobGauge.saveSettings('track_strike', this.checked)">
 				</td>
 			</tr>
 			<tr>
 				<td>Volley of Souls</td>
-				<td><input type="checkbox" id="volley" onchange="TestApp.saveSettings('track_volley', this.checked)">
+				<td><input type="checkbox" id="volley" onchange="NecroJobGauge.saveSettings('track_volley', this.checked)">
 				</td>
 			</tr>
 			<tr>
 				<td>Soulbound Lantern?</td>
-				<td><input type="checkbox" id="t95" onchange="TestApp.saveSettings('track_t95', this.checked)">
+				<td><input type="checkbox" id="t95" onchange="NecroJobGauge.saveSettings('track_t95', this.checked)">
 				</td>
 			</tr>
 			<tr>
 				<td>Target Bloated</td>
-				<td><input type="checkbox" id="bloated" onchange="TestApp.saveSettings('track_bloat', this.checked)">
+				<td><input type="checkbox" id="bloated" onchange="NecroJobGauge.saveSettings('track_bloat', this.checked)">
 				</td>
 			</tr>
 			<!-- <tr>
 				<td>Target Vulnerable</td>
-				<td><input type="checkbox" id="vulnerable" onchange="TestApp.saveSettings('track_vuln', this.checked)">
+				<td><input type="checkbox" id="vulnerable" onchange="NecroJobGauge.saveSettings('track_vuln', this.checked)">
 				</td>
 			</tr> -->
 			<tr>
@@ -47,26 +47,35 @@
 			</tr>
 			<tr>
 				<td>Font</td>
-				<td><select id="font_name" onchange="TestApp.saveSettings('font_name', this.value)"></td>
+				<td><select id="font_name" onchange="NecroJobGauge.saveSettings('font_name', this.value)"></td>
 			</tr>
 			<tr>
 				<td>Font Color</td>
-				<td><input id="font_color" type="color" onchange="TestApp.saveSettings('font_color',this.value)"></td>
+				<td><input id="font_color" type="color" onchange="NecroJobGauge.saveSettings('font_color',this.value)"></td>
 			</tr>
 			<tr>
 				<td>Font Size</td>
-				<td><input id="font_size" type="number" onchange="TestApp.saveSettings('font_size',this.value)"></td>
+				<td><input id="font_size" type="number" onchange="NecroJobGauge.saveSettings('font_size',this.value)"></td>
 			</tr>
 			<tr>
 				<th colspan="2">Font Position Adjustment</th>
 			</tr>
 			<tr>
 				<td>Left/Right</td>
-				<td><input id="font_pos_x" type="number" onchange="TestApp.saveSettings('font_pos_x',this.value)"></td>
+				<td><input id="font_pos_x" type="number" onchange="NecroJobGauge.saveSettings('font_pos_x',this.value)"></td>
 			</tr>
 			<tr>
 				<td>Up/Down</td>
-				<td><input id="font_pos_y" type="number" onchange="TestApp.saveSettings('font_pos_y',this.value)"></td>
+				<td><input id="font_pos_y" type="number" onchange="NecroJobGauge.saveSettings('font_pos_y',this.value)"></td>
+			</tr>
+			<tr>
+				<th colspan="2">App Settings</th>
+			</tr>
+			<tr colspan="2">
+				<td colspan="2"><button id="setLoc" onclick=NecroJobGauge.setLoc()>Set position</button></td>
+			</tr>
+			<tr colspan="2">
+				<td colspan="2"><button onclick=NecroJobGauge.factoryReset()>Reset Settings</button></td>
 			</tr>
 		</table>
 	</div>

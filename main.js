@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["sharp", "canvas", "electron/common"], factory);
 	else if(typeof exports === 'object')
-		exports["TestApp"] = factory((function webpackLoadOptionalExternalModule() { try { return require("sharp"); } catch(e) {} }()), (function webpackLoadOptionalExternalModule() { try { return require("canvas"); } catch(e) {} }()), (function webpackLoadOptionalExternalModule() { try { return require("electron/common"); } catch(e) {} }()));
+		exports["NecroJobGauge"] = factory((function webpackLoadOptionalExternalModule() { try { return require("sharp"); } catch(e) {} }()), (function webpackLoadOptionalExternalModule() { try { return require("canvas"); } catch(e) {} }()), (function webpackLoadOptionalExternalModule() { try { return require("electron/common"); } catch(e) {} }()));
 	else
-		root["TestApp"] = factory(root["sharp"], root["canvas"], root["electron/common"]);
+		root["NecroJobGauge"] = factory(root["sharp"], root["canvas"], root["electron/common"]);
 })(self, (__WEBPACK_EXTERNAL_MODULE_sharp__, __WEBPACK_EXTERNAL_MODULE_canvas__, __WEBPACK_EXTERNAL_MODULE_electron_common__) => {
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
@@ -4368,6 +4368,7 @@ var font_color = document.getElementById("font_color");
 var font_pos_x = document.getElementById("font_pos_x");
 var font_pos_y = document.getElementById("font_pos_y");
 var bloated = document.getElementById("bloated");
+var set_loc = document.getElementById("setLoc");
 // var vuln = document.getElementById("vulnerable") as HTMLInputElement;
 var drawInterface = null;
 var fontNames = ['Arial', 'Arial Black', 'Bahnschrift', 'Calibri', 'Cambria', 'Cambria Math', 'Candara', 'Comic Sans MS', 'Consolas', 'Constantia', 'Corbel', 'Courier New', 'Ebrima', 'Franklin Gothic Medium', 'Gabriola', 'Gadugi', 'Georgia', 'HoloLens MDL2 Assets', 'Impact', 'Ink Free', 'Javanese Text', 'Leelawadee UI', 'Lucida Console', 'Lucida Sans Unicode', 'Malgun Gothic', 'Marlett', 'Microsoft Himalaya', 'Microsoft JhengHei', 'Microsoft New Tai Lue', 'Microsoft PhagsPa', 'Microsoft Sans Serif', 'Microsoft Tai Le', 'Microsoft YaHei', 'Microsoft Yi Baiti', 'MingLiU-ExtB', 'Mongolian Baiti', 'MS Gothic', 'MV Boli', 'Myanmar Text', 'Nirmala UI', 'Palatino Linotype', 'Segoe MDL2 Assets', 'Segoe Print', 'Segoe Script', 'Segoe UI', 'Segoe UI Historic', 'Segoe UI Emoji', 'Segoe UI Symbol', 'SimSun', 'Sitka', 'Sylfaen', 'Symbol', 'Tahoma', 'Times New Roman', 'Trebuchet MS', 'Verdana', 'Webdings', 'Wingdings'];
@@ -4490,10 +4491,11 @@ window.onload = function () {
             option.innerText = x;
             font_name.appendChild(option);
         }
+        if (!alt1__WEBPACK_IMPORTED_MODULE_4__.hasAlt1) {
+            window.location.reload();
+        }
         verifySettings();
         var buffs_1 = new (alt1_buffs__WEBPACK_IMPORTED_MODULE_6___default())();
-        output.innerHTML = "Searching for buffs...";
-        settings.style.display = "none";
         var findBuffs_1 = setInterval(function () {
             if (buffs_1.find()) {
                 settings.style.display = "block";
@@ -4528,15 +4530,23 @@ function start() {
     }
 }
 function setLoc() {
-    alt1__WEBPACK_IMPORTED_MODULE_4__.once("alt1pressed", updateLoc);
+    alt1__WEBPACK_IMPORTED_MODULE_4__.on("alt1pressed", updateLoc);
     alt1.setTooltip("Move mouse to where you want to relocate the interface.  Then press Alt+1");
     output.innerHTML = "Move mouse to where you want to relocate the interface.  Then press Alt+1";
     drawInterface = setInterval(function () {
         alt1.overLayRect(alt1__WEBPACK_IMPORTED_MODULE_4__.mixColor(0, 255, 0), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().x - Math.round((icon_pos.length * 65) / 2), alt1__WEBPACK_IMPORTED_MODULE_4__.getMousePosition().y - 35, icon_pos.length * 65, 70, 200, 1);
     }, 200);
+    set_loc.innerHTML = "Cancel";
+    set_loc.onclick = endSetLoc;
 }
 function updateLoc(e) {
     saveSettings("displayLoc", { x: e.x - (icon_pos.length * 65) / 2, y: e.y - 35 });
+    endSetLoc();
+}
+function endSetLoc() {
+    alt1__WEBPACK_IMPORTED_MODULE_4__.removeListener("alt1pressed", updateLoc);
+    set_loc.innerHTML = "Set Position";
+    set_loc.onclick = setLoc;
     clearInterval(drawInterface);
     alt1.clearTooltip();
     output.innerHTML = "";
